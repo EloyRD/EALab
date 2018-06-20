@@ -20,11 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{4965B7A0-51EC-4193-8DF0-2F842C0BAB13}</ProjectGuid>
+    <ProjectGuid>{9F65AB07-2FB0-4C67-B06C-BCEE7D735831}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>RWS</RootNamespace>
+    <RootNamespace>ColorPrinting</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
-    <ProjectName>04 RWS</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Lab5.c" />
+    <ClCompile Include="ColorPrinting.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

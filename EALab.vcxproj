@@ -22,7 +22,8 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{4C712824-8A73-4A86-81A3-E17B0D845084}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <ProjectName>SortingLab</ProjectName>
+    <ProjectName>03 SortingLab</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
